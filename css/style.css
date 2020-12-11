@@ -1,0 +1,92 @@
+:root
+{
+    font-family: 'Whitney', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+
+.center-horizontal
+{
+    text-align: center;
+
+}
+
+.center-vertical
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.main-div
+{
+    margin: auto;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.center-text
+{
+    top: 50%;
+}
+
+.panel
+{
+    width: 150px;
+    padding: 5px;
+    border:3px solid; 
+    border-radius: 5px;
+    position: absolute;
+    background: white;
+    font-size: 15px;
+    
+}
+
+.circle
+{
+    width: 100px;
+    height: 100px;
+    padding: 2em;
+    border:10px solid; 
+    border-radius: 50%;
+    position: absolute;
+    background: white;
+    text-transform: uppercase;
+}
+
+.image
+{
+    width: 90%;
+    height: auto;
+    position: absolute;
+}
+
+.icon
+{
+    max-width: 50px;
+    max-height: auto;
+    margin-left:calc(50% - 25px);
+}
+
+.grow 
+{ 
+    transition: all 0.2s ease-in-out;
+}
+
+.transform-class
+{
+    transform: scale(4);
+    
+    margin-top: calc(50vh - 150px) !important;
+    margin-left: calc(50vw - 150px) !important; 
+}
+
+.top
+{
+    z-index: 5;
+}
